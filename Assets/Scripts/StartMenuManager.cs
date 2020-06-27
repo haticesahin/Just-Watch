@@ -13,8 +13,8 @@ public class StartMenuManager : MonoBehaviour
 
     void FadeOut()
     {
-        startBtn.GetComponent<CanvasGroup>().DOFade(1, 0.8f);
-        exitBtn.GetComponent<CanvasGroup>().DOFade(1, 0.8f);
+        startBtn.GetComponent<CanvasGroup>().DOFade(1, 2f);
+        exitBtn.GetComponent<CanvasGroup>().DOFade(1, 2f);
     }
 
     public void StartGame()

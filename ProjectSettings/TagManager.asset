@@ -11,6 +11,10 @@ TagManager:
   - DogruPanel
   - YanlisPanel
   - KontrolBtn
+  - SaatDersPnl2
+  - SaatDersPnl1
+  - DevamBtn
+  - Cevir
   layers:
   - Default
   - TransparentFX

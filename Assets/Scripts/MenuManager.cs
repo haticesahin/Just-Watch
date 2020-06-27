@@ -43,12 +43,22 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("SaatScene");
     }
 
-    public void TurSceneOpen()
+    public void TurDersSceneOpen()
+    {
+        SceneManager.LoadScene("TurDersScene");
+    }
+
+    public void TurGameSceneOpen()
     {
         SceneManager.LoadScene("TurScene");
     }
 
-    public void ZamanSceneOpen()
+    public void ZamanDersSceneOpen()
+    {
+        SceneManager.LoadScene("ZamanDersScene");
+    }
+
+    public void ZamanGameSceneOpen()
     {
         SceneManager.LoadScene("ZamanScene");
     }
